@@ -1,0 +1,36 @@
+table {
+  margin-left: 3%;
+  border: 1px solid rgb(224 224 224);
+}
+
+td{
+  padding: 15px;
+  font-size: 0.875rem;
+  border-top: 1px solid rgb(224 224 224);
+  line-height: 1.43;
+  letter-spacing: 0.010;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  text-align: center;
+}
+
+th{
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  padding: 15px;
+}
+
+.Name{
+  width: 10vw;
+}
+.Address{
+  width: 12vw;
+}
+.Delete, .Edit{
+  max-width: 8vw;
+}
